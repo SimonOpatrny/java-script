@@ -1,0 +1,51 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: azure;
+    margin: 0;
+}
+
+.kalkulátor {
+    background-color: blueviolet;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px;
+    padding: 20px
+}
+
+#display {
+    width: 100%;
+    padding: 5px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: inset 0 2px 4px;
+}
+
+.button {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: pink;
+    color: rosybrown;
+    cursor: pointer;
+}
+
+button:hower {
+    background-color: rgb(252, 63, 255);
+}
+
+button:active {
+    background-color: rgb(255, 0, 238);
+}

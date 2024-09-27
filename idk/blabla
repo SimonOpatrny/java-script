@@ -1,0 +1,8 @@
+function add(){
+    let input = document.getAnimations("input");
+    document.getElementById("output").innerHTML = input.value;
+const emoji = ['❤️'];
+
+function Clear() {
+    document.getElementById("output").innerHTML = ""; 
+}

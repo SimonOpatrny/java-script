@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Přidání obrázku</title>
+    <link rel="stylesheet" href="/style.css"> <!-- Odkaz na externí CSS -->
+    <script src="/script2.js" defer></script> <!-- Odkaz na externí JavaScript -->
+</head>
+<body>
+
+<div class="container">
+    <h1>Přidání obrázku</h1>
+    
+    <!-- Původní obrázek, který bude nahrazen -->
+    <img id="obrazek" src="https://via.placeholder.com/300" alt="Původní obrázek" class="obrazek">
+
+    <!-- Input pro zadání URL obrázku -->
+    <input type="text" id="urlObrazku" placeholder="Zadej URL obrázku">
+    
+    <!-- Input pro zadání jména obrázku -->
+    <input type="text" id="nazevObrazkuInput" placeholder="Zadej jméno obrázku">
+    
+    <button onclick="pridatObrazek()">Přidat obrázek</button>
+
+    <!-- Seznam pro zobrazování předchozích obrázků -->
+    <h2>Předchozí obrázky:</h2>
+    <ul id="info" class="history-list"></ul>
+</div>
+
+</body>
+</html>
